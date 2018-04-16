@@ -1,0 +1,14 @@
+export const WP_GET_POSTS = 'wordpress/GET_POSTS';
+export const WP_GET_POSTS_REQUEST = 'wordpress/GET_POSTS_REQUEST';
+export const WP_GET_POSTS_SUCCESS = 'wordpress/GET_POSTS_SUCCESS';
+export const WP_GET_POSTS_FAIL = 'wordpress/GET_POSTS_FAIL';
+
+export const WP_GET_POSTS_BY_SLUG = 'wordpress/GET_POSTS_BY_SLUG';
+export const WP_GET_POSTS_BY_SLUG_REQUEST = 'wordpress/GET_POSTS_BY_SLUG_REQUEST';
+export const WP_GET_POSTS_BY_SLUG_SUCCESS = 'wordpress/GET_POSTS_BY_SLUG_SUCCESS';
+export const WP_GET_POSTS_BY_SLUG_FAIL = 'wordpress/GET_POSTS_BY_SLUG_FAIL';
+
+export const WP_GET_CATEGORIES_BY_SLUG = 'wordpress/GET_CATEGORIES_BY_SLUG';
+export const WP_GET_CATEGORIES_BY_SLUG_REQUEST = 'wordpress/GET_CATEGORIES_BY_SLUG_REQUEST';
+export const WP_GET_CATEGORIES_BY_SLUG_SUCCESS = 'wordpress/GET_CATEGORIES_BY_SLUG_SUCCESS';
+export const WP_GET_CATEGORIES_BY_SLUG_FAIL = 'wordpress/GET_CATEGORIES_BY_SLUG_FAIL';
