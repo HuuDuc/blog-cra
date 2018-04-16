@@ -1,12 +1,12 @@
 import * as cons from '../constants/wordpress'
-import queryString from 'query-string'
+import qs from 'qs'
 
 export const getAllPost = (data = {}) => {
   return {
     type: cons.WP_GET_POSTS,
     payload: {
       request:{
-        url: `/posts?${queryString.stringify(data)}`
+        url: `/posts?${qs.stringify(data)}`
       }
     }
   }

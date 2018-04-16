@@ -9,6 +9,12 @@ class SinglePost extends Component {
     this.props.getPostySlug(slug)
   }
 
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.wpPost.size > 0) {
+      document.title = nextProps.wpPost.get('title');
+    }
+  }
+
   render() {
 
     let categories = []
